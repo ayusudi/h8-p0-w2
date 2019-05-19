@@ -1,0 +1,40 @@
+Phase 0 Week 2 Exercise 1
+
+1. Newton Second Law
+STORE "m (kg)" TO 600
+STORE "a (m/s2) TO 2
+STORE "F (N)" without any value
+CALCULATE "m (kg)" times "a (m/s2)"
+SET "F (N)" value with calculation result
+DISPLAY "F (N)"
+
+2. Tahun Kabisat
+STORE "year" to any number
+IF "year"%4 == 0
+	DISPLAY "it's leap year"
+
+ELSE IF "year"%100==0 && %400==0
+	DISPLAY "it's leap year"
+ELSE 
+	DISPLAY "it isn't leap year"
+END IF
+
+3. Laundry Day
+WHILE "laundry clothes" < 20
+	ADD "Laundry Clothes" by 1
+END WHILE
+IF "laundry clothes"==20
+	DISPLAY "Laundry machine active"
+ELSE 
+	DISPLAY "Laundy machine not active"
+END IF
+
+4. Periksa Kuku
+WHILE "student" <20
+	ADD "student" by 1
+END WHILE
+IF "student"==Kuku panjang
+	DISPLAY "dihukum"
+ELSE 
+	DISPLAY "Tidak dihukum"
+END IF
